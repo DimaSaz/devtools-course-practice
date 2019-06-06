@@ -62,7 +62,7 @@ TEST(Sazanov_Dima_AreaFigure, Can_Calculate_RightTriangle_Area) {
 	double sideA = 5.0;
 	double sideB = 6.0;
 	// Act
-	double result = RightTriangleArea(sideA, sideB);
+	double result = AreaFigures::RightTriangleArea(sideA, sideB);
 	// Assert
 	double exp_ans = 30.00;
 	EXPECT_EQ(exp_ans, result);
