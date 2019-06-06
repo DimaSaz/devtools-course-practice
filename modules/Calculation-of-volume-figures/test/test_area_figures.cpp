@@ -22,7 +22,7 @@ TEST(Sazanov_Dima_AreaFigure, Can_Calculate_Rhombus_Area) {
 	double result = AreaFigures::RhombusArea(side, height);
 	// Assert
 	double exp_ans = 10.00;
-	EXPECT_NEAR(exp_ans, result);
+	EXPECT_EQ(exp_ans, result);
 }
 
 TEST(Sazanov_Dima_AreaFigure, Can_Calculate_Square_Area) {
@@ -54,7 +54,7 @@ TEST(Sazanov_Dima_AreaFigure, Can_Calculate_EquilTriangle_Area) {
 	double result = AreaFigures::EquilTriangleArea(height, side);
 	// Assert
 	double exp_ans = 25.0;
-	EXPECT_NEAR(exp_ans, result);
+	EXPECT_EQ(exp_ans, result);
 }
 
 TEST(Sazanov_Dima_AreaFigure, Can_Calculate_RightTriangle_Area) {
@@ -65,5 +65,5 @@ TEST(Sazanov_Dima_AreaFigure, Can_Calculate_RightTriangle_Area) {
 	double result = RightTriangleArea(sideA, sideB);
 	// Assert
 	double exp_ans = 30.00;
-	EXPECT_NEAR(exp_ans, result);
+	EXPECT_EQ(exp_ans, result);
 }
