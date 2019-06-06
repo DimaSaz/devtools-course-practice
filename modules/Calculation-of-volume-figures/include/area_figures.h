@@ -5,7 +5,7 @@
 
 class AreaFigures {
 public:
-	static double ÑircleArea(double radius);
+	static double CircleArea(double radius);
 	static double RhombusArea(double side, double height);
 	static double SquareArea(double length);
 	static double RectangleArea(double length, double width);
