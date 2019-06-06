@@ -1,6 +1,6 @@
 // Copyright 2019 Sazanov Dima
 
-#ifndef MODULES_AF_INCLUDE_AF_H_
+#ifndef MODULES_CALCULATION_OF_VOLUME_FIGURES_INCLUDE_AREA_FIGURES_H_
 #define MODULES_AF_INCLUDE_AF_H_
 
 class AreaFigures {
@@ -13,4 +13,4 @@ class AreaFigures {
         static double RightTriangleArea(double sideA, double sideB);
 };
 
-#endif  // MODULES_AF_INCLUDE_AF_H_
+#endif  // MODULES_CALCULATION_OF_VOLUME_FIGURES_INCLUDE_AREA_FIGURES_H_
