@@ -10,7 +10,7 @@ TEST(Sazanov_Dima_AreaFigure, Can_Calculate_Circle_Area) {
 	// Act
 	double result = AreaFigures::CircleArea(radius);
 	// Assert
-	double exp_ans = 12.56;
+        double exp_ans = 12.56;
 	EXPECT_NEAR(exp_ans, result, 0.01);
 }
 
