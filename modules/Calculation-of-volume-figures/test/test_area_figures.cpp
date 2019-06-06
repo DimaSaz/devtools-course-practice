@@ -4,11 +4,11 @@
 
 #include "include/area_figures.h"
 
-TEST(Sazanov_Dima_AreaFigure, Can_Calculate_Ñircle_Area) {
+TEST(Sazanov_Dima_AreaFigure, Can_Calculate_Circle_Area) {
 	// Arrange
 	double radius = 2.0;
 	// Act
-	double result = AreaFigures::ÑircleArea(radius);
+	double result = AreaFigures::ÅƒircleArea(radius);
 	// Assert
 	double exp_ans = 12.56;
 	EXPECT_NEAR(exp_ans, result, 0.01);
