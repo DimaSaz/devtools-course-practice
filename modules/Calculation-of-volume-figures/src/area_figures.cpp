@@ -5,7 +5,7 @@
 
 #include "include/area_figures.h"
 
-double AreaFigures::ÑircleArea(double radius) {
+double AreaFigures::CircleArea(double radius) {
 	return M_PI * pow(radius, 2.0);
 }
 
