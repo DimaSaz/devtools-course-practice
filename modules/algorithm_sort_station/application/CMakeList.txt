@@ -1,3 +1,4 @@
+    
 set(target ${APPLICATION})
 
 file(GLOB srcs "*.cpp")
