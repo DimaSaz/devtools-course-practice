@@ -66,6 +66,6 @@ TEST_F(AlgSortStationApplicationTest, Print_Result) {
 
         Act(args);
 
-        Assert("result = 9");
+        Assert("result = 9.000000");
 }
 
