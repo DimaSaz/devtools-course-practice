@@ -6,7 +6,7 @@
 #include <iostream>
 #include <cstring>
 #include <string>
-#include "include/shapes_area_application.h"
+#include "include/algorithm_sort_station_application.h"
 
 std::string AlgSortStationApplication::operator()
         (int argc, const char **argv) {
