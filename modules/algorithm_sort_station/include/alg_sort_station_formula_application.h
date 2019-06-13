@@ -1,17 +1,21 @@
 // Copyright 2019 Sazanov Dima
 
-#ifndef MODULES_ALG_SORT_STATION_FORMULA_INCLUDE_ASSF_H_
-#define MODULES_ALG_SORT_STATION_FORMULA_INCLUDE_ASSF_H_
+#ifndef MODULES_ALGORITHM_SORT_STATION_AP_INCLUDE_ALGORITHM_SORT_STATION_AP_H_
+#define MODULES_ALGORITHM_SORT_STATION_AP_INCLUDE_ALGORITHM_SORT_STATION_AP_H_
 
 #include <string>
 #include "include/alg_sort_station_formula.h"
+#include "include/algorithm_sort_station.h"
 
-class ASSFApplication {
- public:
-	double UseAlgoritm();
-	std::string Start();
-	std::string UserEnter();
-    void End();
+class AlgSortStationApplication {
+private:
+	std::string ParseCommand(int argc, const char** argv);
+	std::string ASSF(int argc, const char** arg);
+public:
+	std::string Info();
+	AlgSortStationApplication() = default;
+	std::string operator()(int argc, const char **argv);
 };
 
-#endif  // MODULES_ALG_SORT_STATION_FORMULA_INCLUDE_ASSF_H_
+#endif  // MODULES_ALGORITHM_SORT_STATION_AP_INCLUDE_ALGORITHM_SORT_STATION_AP_H_
+
