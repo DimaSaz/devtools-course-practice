@@ -24,16 +24,18 @@ std::string AlgSortStationApplication::operator()
                 return exp;
         }
         return output;
-} 
+}
 
 std::string AlgSortStationApplication::Info() {
         return "Welcome to the program -Sorting Station Algorithm-\n"
                 "To continue, enter the formula\n"
-                "!!!The formula can contain only integers, brackets, and arithmetic signs!!!\n"
+                "!!!The formula can contain only integers, brackets, "
+                "and arithmetic signs!!!\n"
                 "!!!The formula should be written without spaces!!!\n";
 }
 
-std::string AlgSortStationApplication::ParseCommand(int argc, const char **arg) {
+std::string AlgSortStationApplication::ParseCommand(
+        int argc, const char **arg) {
         if (strcmp(arg[1], "info") == 0) {
                 return Info();
         } else if (argc == 2) {
