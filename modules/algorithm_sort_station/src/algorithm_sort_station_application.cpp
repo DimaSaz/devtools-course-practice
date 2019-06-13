@@ -46,9 +46,7 @@ std::string AlgSortStationApplication::ParseCommand(
 }
 
 std::string AlgSortStationApplication::ASSF(int argc, const char** arg) {
-        string str = arg[2];
-        AlgSortStationFormula::AlgSortStationFormula(str);
-        double d = AlgSortStationFormula::FormulaCalculator();
-        return std::to_string(d);
+        AlgSortStationFormula assf(arg[2]);
+        return std::to_string(AlgSortStationFormula::FormulaCalculator());
 }
 
