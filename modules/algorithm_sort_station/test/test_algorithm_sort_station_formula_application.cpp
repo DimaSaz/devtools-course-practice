@@ -8,7 +8,7 @@
 #include <functional>
 #include <iterator>
 
-#include "include/algorithm_sort_station_application.cpp"
+#include "include/algorithm_sort_station_application.h"
 
 using ::testing::internal::RE;
 using std::vector;
