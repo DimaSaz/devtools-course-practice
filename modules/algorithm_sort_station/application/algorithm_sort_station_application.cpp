@@ -1,15 +1,10 @@
-// Copyright 2019 Sazanov Dima
+// Copyright 2019 Evdokimov Artem
 
-#include <cstdlib>
-#include <cstdio>
-#include <string>
 #include <iostream>
+#include "include/algorithm_sort_station_application.h"
 
-#include "include/alg_sort_station_formula_application.h"
-
-int main(int argc, const char** argv) {
-    ASSFApplication app;
-    std::string output = app(argc, argv);
-    std::cout << output.c_str() << std::endl;
+int main(int argc, char const** argv) {
+    AlgSortStationApplication application;
+    std::cout << application(argc, argv);
     return 0;
 }
