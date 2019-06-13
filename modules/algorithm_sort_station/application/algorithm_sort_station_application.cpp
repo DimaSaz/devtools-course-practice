@@ -1,4 +1,4 @@
-// Copyright 2019 Evdokimov Artem
+// Copyright 2019 Sazanov Dima
 
 #include <iostream>
 #include "include/alg_sort_station_formula_application.h"
