@@ -8,13 +8,13 @@
 #include "include/algorithm_sort_station.h"
 
 class AlgSortStationApplication {
-private:
-	std::string ParseCommand(int argc, const char** argv);
-	std::string ASSF(int argc, const char** arg);
-public:
-	std::string Info();
-	AlgSortStationApplication() = default;
-	std::string operator()(int argc, const char **argv);
+ private:
+        std::string ParseCommand(int argc, const char** argv);
+        std::string ASSF(int argc, const char** arg);
+ public:
+        std::string Info();
+        AlgSortStationApplication() = default;
+        std::string operator()(int argc, const char **argv);
 };
 
 #endif  // MODULES_ALGORITHM_SORT_STATION_INCLUDE_ALG_SORT_STATION_FORMULA_APPLICATION_H_
