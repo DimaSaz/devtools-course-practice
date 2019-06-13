@@ -62,10 +62,10 @@ TEST_F(AlgSortStationApplicationTest, Print_Form_With_Space) {
 }
 
 TEST_F(AlgSortStationApplicationTest, Print_Result) {
-        std::vector<std::string> args = { "(1+2)*3"};
+        std::vector<std::string> args = {"(1+2)*3"};
 
         Act(args);
 
-        Assert("result = 9.000000");
+        Assert("result = 9.*");
 }
 
