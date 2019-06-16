@@ -66,5 +66,5 @@ TEST_F(AlgSortStationApplicationTest, Considered_Formula) {
 
         Act(args);
 
-        Assert("*7*");
+        Assert("Amount of Error = 0");
 }
