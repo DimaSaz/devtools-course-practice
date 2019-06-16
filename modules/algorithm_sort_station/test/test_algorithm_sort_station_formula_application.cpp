@@ -61,3 +61,10 @@ TEST_F(AlgSortStationApplicationTest, Print_Form_With_Space) {
         Assert("Input Error");
 }
 
+TEST_F(AlgSortStationApplicationTest, Print_Form_With_Space) {
+        std::vector<std::string> args = { "(1+2)*3" };
+
+        Act(args);
+
+        Assert("Amount of Error = 0");
+}
