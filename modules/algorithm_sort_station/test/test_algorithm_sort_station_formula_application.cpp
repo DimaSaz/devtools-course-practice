@@ -62,9 +62,9 @@ TEST_F(AlgSortStationApplicationTest, Print_Form_With_Space) {
 }
 
 TEST_F(AlgSortStationApplicationTest, Considered_Formula) {
-        std::vector<std::string> args = { "(1+2)*3" };
+        std::vector<std::string> args = { "(7+(3*10)-2)/5" };
 
         Act(args);
 
-        Assert("Amount of Error = 0");
+        Assert("*7*");
 }
