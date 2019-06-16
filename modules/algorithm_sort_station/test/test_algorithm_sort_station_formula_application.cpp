@@ -66,5 +66,5 @@ TEST_F(AlgSortStationApplicationTest, Considered_Formula) {
 
         Act(args);
 
-        Assert("*7*");
+        Assert("Welcome to the program -Sorting Station Algorithm-");
 }
