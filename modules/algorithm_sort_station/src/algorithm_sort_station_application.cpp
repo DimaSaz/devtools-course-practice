@@ -20,9 +20,6 @@ std::string AlgSortStationApplication::operator()
         catch (std::runtime_error &exp) {
                 return exp.what();
         }
-        catch (std::string &exp) {
-                return exp;
-        }
         return output;
 }
 
